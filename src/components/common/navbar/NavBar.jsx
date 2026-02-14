@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import istan from "../../../assets/images/istan.png";
+import istan from "../../../assets/images/istan.PNG";
 import { Link } from "react-scroll";
 
 const navItems = [
