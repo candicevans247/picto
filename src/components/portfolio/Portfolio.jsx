@@ -1,10 +1,10 @@
 import Projects from "./Projects";
-import card1 from "../..assets/images/portfolio-images/adomi.png";
-import card2 from "../../assets/images/portfolio-images/chrome_bDg5xIdhKM.png";
-import card3 from "../..assets/images/portfolio-images/railway.png";
-import card4 from "../../assets/images/portfolio-images/coinsure.png";
-import card5 from "../../assets/images/portfolio-images/stakd.png";
-import card6 from "../../assets/images/portfolio-images/miciella.png";
+import adomi from "../..assets/images/portfolio-images/adomi.png";
+import chrome_bDg5xIdhKM from "../../assets/images/portfolio-images/chrome_bDg5xIdhKM.png";
+import railway from "../..assets/images/portfolio-images/railway.png";
+import coinsure from "../../assets/images/portfolio-images/coinsure.png";
+import stakd from "../../assets/images/portfolio-images/stakd.png";
+import miciella from "../../assets/images/portfolio-images/miciella.png";
 
 const projectData = [
   {
@@ -90,5 +90,6 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
 
