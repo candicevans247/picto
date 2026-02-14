@@ -1,4 +1,4 @@
-import person from "../../assets/images/person.png";
+import person from "../../assets/images/stan.jpg";
 import "./introduction.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
@@ -80,3 +80,4 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
