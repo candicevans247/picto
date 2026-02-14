@@ -1,5 +1,5 @@
 import Projects from "./Projects";
-import adomi from "src/assets/images/portfolio-images";
+import adomi from "../../assets/images/portfolio-images";
 import chrome_bDg5xIdhKM from "../../assets/images/portfolio-images/chrome_bDg5xIdhKM.png";
 import railway from "../..assets/images/portfolio-images/railway.png";
 import coinsure from "../../assets/images/portfolio-images/coinsure.png";
@@ -90,6 +90,7 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
 
 
