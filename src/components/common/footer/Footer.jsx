@@ -1,4 +1,4 @@
-import logo from "../../../assets/images/istan.png";
+import istan from "../../../assets/images/istan.png";
 
 /* Footer nabLinks */
 const navItems = [
