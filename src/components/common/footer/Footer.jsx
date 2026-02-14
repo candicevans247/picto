@@ -1,4 +1,5 @@
-import istan from "../../../assets/images/istan.png";
+import istan from "../../../assets/images/istan.PNG";
+
 
 /* Footer nabLinks */
 const navItems = [
