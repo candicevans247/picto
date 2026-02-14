@@ -1,7 +1,12 @@
 import Projects from "./Projects";
-import adomi from "../../assets/images/portfolio-images";
+
+// FIXED: point directly to the file, with .png
+import adomi from "../../assets/images/portfolio-images/adomi.png";
 import chrome_bDg5xIdhKM from "../../assets/images/portfolio-images/chrome_bDg5xIdhKM.png";
-import railway from "../..assets/images/portfolio-images/railway.png";
+
+// FIXED: added missing "/" after ".."
+import railway from "../../assets/images/portfolio-images/railway.png";
+
 import coinsure from "../../assets/images/portfolio-images/coinsure.png";
 import stakd from "../../assets/images/portfolio-images/stakd.png";
 import miciella from "../../assets/images/portfolio-images/miciella.png";
@@ -90,9 +95,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-
-
-
-
-
