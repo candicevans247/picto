@@ -9,7 +9,7 @@ import miciella from "../../assets/images/portfolio-images/miciella.png";
 const projectData = [
   {
     id: 1,
-    image: card1,
+    image: adomi,
     category: "BRAND IDENTITY",
     title: "Adomini Food Brand",
     description:
@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     id: 2,
-    image: card2,
+    image: chrome_bDg5xIdhKM,
     category: "PROMOTIONAL DESIGN",
     title: "Taste Wiz Baking Class",
     description:
@@ -27,7 +27,7 @@ const projectData = [
   },
   {
     id: 3,
-    image: card3,
+    image: railway,
     category: "SOCIAL MEDIA DESIGN",
     title: "Railway Mobile",
     description:
@@ -36,7 +36,7 @@ const projectData = [
   },
   {
     id: 4,
-    image: card4,
+    image: coinsure,
     category: "SOCIAL MEDIA DESIGNS",
     title: "Coinsure Crypto Platform",
     description:
@@ -45,7 +45,7 @@ const projectData = [
   },
   {
     id: 5,
-    image: card5,
+    image: stakd,
     category: "SOCIAL MEDIA DESIGNS",
     title: "Stak'd",
     description:
@@ -54,7 +54,7 @@ const projectData = [
   },
   {
     id: 6,
-    image: card6,
+    image: miciella,
     category: "SOCIAL MEDIA DESIGNS",
     title: "Mi Ciella Cakes and Pastries",
     description:
@@ -90,6 +90,7 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
 
 
