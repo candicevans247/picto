@@ -3,21 +3,21 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "User Experience (UX)",
+    title: "Brand Identity",
     description:
-      "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
+      "I create cohesive visual systems that reflect brand personality and connect with target audiences.",
   },
   {
     id: 2,
-    title: "User Interface (UI)",
+    title: "Social Media Design",
     description:
-      "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
+      "I design scroll-stopping social media graphics optimized for each platform, using strategic visual storytelling to showcase products and communicate brand values.",
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "Promotional & Marketing Design",
     description:
-      "I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.",
+      "I create high-conversion flyers, campaign graphics, and promotional materials with clear visual hierarchy and multi-format optimization.",
   },
 ];
 
@@ -31,22 +31,9 @@ const Profession = () => {
         <p className="section-title max-md:text-center">What I do?</p>
         <div className="mt-6 text-[14px]">
           <p className="text-xs sm:text-lg font-normal text-gray-400 mb-4">
-            I specialize in designing user experiences, crafting engaging
-            interfaces, and building robust web applications that deliver value
-            and usability.
-          </p>
-          <p className="text-xs sm:text-lg font-normal text-gray-400">
-            My approach combines creativity and technical expertise to deliver
-            solutions that are both visually appealing and highly functional for
-            users.
+            I'm a strategic graphic designer who translates business objectives into compelling visual solutions. I specialize in brand identity, social media design, and promotional graphics that boost engagement and strengthen brand presence.
           </p>
         </div>
-        <a
-          href="#!"
-          className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
-        >
-          Say Hello!
-        </a>
       </div>
       <div className="">
         {rolesData.map((role, index) => (

@@ -1,5 +1,7 @@
 import person from "../../assets/images/person.png";
 import "./introduction.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import InformationSummary from "./InformationSummary";
 
 // Information summary data
@@ -7,17 +9,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "15 Y.",
+    description: "2yrs",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "250+",
+    description: "50+",
   },
   {
     id: 3,
     title: "Happy Clients",
-    description: "58",
+    description: "45",
   },
 ];
 
@@ -32,23 +34,29 @@ const Introduction = () => {
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Hello, I’m
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Brooklyn Gilbert
+              Stanley NNebulu
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
-            applications through carefully crafted code and user-centric design.
+            I'm a passionate <span className="bg-highlight">Graphics Designer</span>{" "}
+            specializing in creating visually engaging and meaningful designs. I focus on blending creativity with strategy to bring unique concepts to life.
           </p>
-          <p className="text-center lg:text-start">
-            <a
-              className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
-            >
-              Say Hello!
-            </a>
-          </p>
+          <div className="flex gap-3 justify-center lg:justify-start">
+  <a
+    href="#"
+    download
+    className="btn btn-outline btn-xs xxs:btn-lg"
+  >
+    <FontAwesomeIcon icon={faDownload} /> Download CV
+  </a>
+
+  <a
+    className="btn-primary btn btn-xs xxs:btn-lg text-white"
+    href="mailto:info@istandesign.com"
+  >
+    Get in touch!
+  </a>
+</div>
         </div>
         <div className="mx-auto lg:mx-0 relative">
           <div className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">

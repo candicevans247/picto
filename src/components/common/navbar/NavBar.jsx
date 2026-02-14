@@ -4,11 +4,9 @@ import { Link } from "react-scroll";
 
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
-  { id: 2, name: "About", url: "profile" },
-  { id: 3, name: "Process", url: "work-process" },
-  { id: 4, name: "Portfolio", url: "portfolio" },
-  { id: 5, name: "Blog", url: "blog" },
-  { id: 6, name: "Services", url: "services" },
+  { id: 2, name: "Process", url: "work-process" },
+  { id: 3, name: "Portfolio", url: "portfolio" },
+  { id: 4, name: "Services", url: "services" },
 ];
 
 const handleMenuClick = () => {
@@ -27,10 +25,10 @@ const menu = navItems.map((item) => (
       spy={true}
       offset={-140}
       activeStyle={{
-        backgroundColor: "#9929fb",
+        backgroundColor: "#9D0042", // maroon active background
         color: "white",
       }}
-      className={`hover:text-picto-primary px-5 py-3 mx-1`}
+      className="hover:text-picto-primary px-5 py-3 mx-1"
     >
       {item.name}
     </Link>
@@ -79,7 +77,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className={`menu menu-lg dropdown-content rounded-box z-1 mt-3 w-lvw p-2 shadow font-semibold flex-nowrap bg-white text-black`}
+              className="menu menu-lg dropdown-content rounded-box z-1 mt-3 w-lvw p-2 shadow font-semibold flex-nowrap bg-white text-black"
             >
               {menu}
             </ul>
@@ -87,14 +85,14 @@ const NavBar = () => {
 
           <Link
             href="#introduction"
-            to={`introduction`}
+            to="introduction"
             smooth={true}
             duration={900}
             className="flex items-center border-0 lg:max-xxl:ps-5"
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+              StanDesign
             </p>
           </Link>
         </div>
@@ -103,11 +101,11 @@ const NavBar = () => {
           <ul className="hidden lg:flex menu menu-horizontal text-[16px] font-medium md:shrink-0">
             {menu}
           </ul>
-          <p className="">
+          <p>
             <Link
               className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
-              href="#contact"
-              to={`contact`}
+              href="mailto:info@istandesign.com"
+              to="contact"
               smooth={true}
               duration={900}
             >

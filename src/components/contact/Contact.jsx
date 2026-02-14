@@ -9,19 +9,14 @@ import SocialMedia from "../common/socialMedia/SocialMedia";
 
 const addressData = [
   {
-    icon: faLocationDot,
-    title: "Address",
-    description: "New Mexico, 31134",
-  },
-  {
     icon: faEnvelope,
     title: "My Email",
-    description: "mymail@mail.com",
+    description: "info@istandesign.com",
   },
   {
     icon: faPhone,
     title: "Call Me Now",
-    description: "00-123 00000",
+    description: "08049677848",
   },
 ];
 
@@ -39,8 +34,7 @@ const Contact = () => {
                 Let’s discuss your Project
               </p>
               <p className="text-[12px] xs:text-[14px] sm:text-lg md:text-lg max-lg:text-center pt-4 font-normal text-soft-dark">
-                I'm available for freelance work. Drop me a line if you have a
-                project you think I'd be a good fit for.
+                I'm available for freelance graphic design projects. If you need visuals that drive engagement, strengthen brand presence, and deliver results — let's connect.
               </p>
             </div>
             <div className="my-8.75 sm:max-lg:flex justify-between items-center">
@@ -54,7 +48,7 @@ const Contact = () => {
           </div>
           <div className="w-full overflow-y-scroll py-6.5">
             <p className="text-xl mb-2 xs:text-2xl sm:text-2xl md:text-[38px] font-semibold text-[#132238] lg:hidden text-center">
-              Let’s discuss your Project
+              Ready to Work Together?
             </p>
             <Form />
           </div>

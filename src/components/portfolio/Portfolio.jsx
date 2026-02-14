@@ -10,56 +10,56 @@ const projectData = [
   {
     id: 1,
     image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "BRAND IDENTITY",
+    title: "Adomini Food Brand",
     description:
-      "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
-    link: "#!",
+      "Created a cohesive brand identity system from concept to launch, including logo design, color palette, and promotional teasers to build anticipation.",
+    link: "https://www.behance.net/gallery/240760001/Social-Media-Design-For-Stakd",
   },
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "PROMOTIONAL DESIGN",
+    title: "Taste Wiz Baking Class",
     description:
-      "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
-    link: "#!",
+      "Designed a high-conversion promotional flyer optimized for digital and print, using warm tones and clear hierarchy to communicate value at a glance.",
+    link: "https://www.behance.net/gallery/240761827/Social-Media-Designs",
   },
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "SOCIAL MEDIA DESIGN",
+    title: "Railway Mobile",
     description:
-      "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
-    link: "#!",
+      "Designed high-quality social media creatives promoting mobile devices and tech accessories, translating product specifications into visually compelling, easy-to-understand graphics.",
+    link: "https://www.behance.net/gallery/240757769/Social-Media-Designs-For-RailWay-Mobile",
   },
   {
     id: 4,
     image: card4,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "SOCIAL MEDIA DESIGNS",
+    title: "Coinsure Crypto Platform",
     description:
-      "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-    link: "#!",
+      "Designed a consistent visual system to simplify complex crypto concepts, using strategic color and typography to communicate security and innovation.",
+    link: "https://www.behance.net/gallery/240755359/Social-Media-Design-For-CoinSure",
   },
   {
     id: 5,
     image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "SOCIAL MEDIA DESIGNS",
+    title: "Stak'd",
     description:
-      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-    link: "#!",
+      "Created visually compelling social media graphics showcasing burgers in an appetizing, bold, and premium manner using strategic color choices and typography.",
+    link: "https://www.behance.net/gallery/240760001/Social-Media-Design-For-Stakd",
   },
   {
     id: 6,
     image: card6,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "SOCIAL MEDIA DESIGNS",
+    title: "Mi Ciella Cakes and Pastries",
     description:
-      "Enhanced user experience by streamlining workflows and optimizing interface components and so on.",
-    link: "#!",
+      "Created promotional graphics for product launches, special offers, and seasonal campaigns optimized for social media platforms to increase visibility.",
+    link: "https://www.behance.net/gallery/240757303/Social-Media-Designs-For-MiCiella-Cakes-And-Pastries",
   },
 ];
 
@@ -74,7 +74,7 @@ const Portfolio = () => {
           <p className="section-title ">Portfolio</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
             Here's a selection of my recent work, showcasing my skills in
-            creating user-centric and visually appealing interfaces.
+            creating user-centric and visually appealing designs.
           </p>
         </div>
       </div>
@@ -84,14 +84,6 @@ const Portfolio = () => {
             <Projects data={data} key={index} />
           ))}
         </div>
-      </div>
-      <div className="text-center">
-        <a
-          href="#!"
-          className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
-        >
-          More Project
-        </a>
       </div>
     </div>
   );
