@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/images/istan.png";
 import { Link } from "react-scroll";
 
 const navItems = [
